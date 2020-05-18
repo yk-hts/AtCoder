@@ -1,0 +1,6 @@
+S = input()
+ans = ['WBWBWWBWBWBWWBWBWWBW','WBWWBWBWBWWBWBWWBWBW','WWBWBWBWWBWBWWBWBWBW','WBWBWBWWBWBWWBWBWBWW','WBWBWWBWBWWBWBWBWWBW','WBWWBWBWWBWBWBWWBWBW','WWBWBWWBWBWBWWBWBWWB']
+sound = ['Do','Re','Mi','Fa','So','La','Si']
+for i in range(len(ans)):
+    if ans[i] == S:
+        print(sound[i])

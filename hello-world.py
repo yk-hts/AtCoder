@@ -1,0 +1,13 @@
+import numpy
+a = numpy.array([0,1,2,3])
+b = numpy.array([[0,1,2],[3,4,5]])
+print("a.shape",a.shape)
+print("b.shape",b.shape)
+print("a.size",a.size)
+print("b.size",b.size)
+print(numpy.arange(5))
+print(numpy.arange(1,10,2))
+print("6",numpy.arange(6))
+print("2×3",numpy.arange(6).reshape(2,3))
+print(numpy.linspace(2.0,3.0,num=5))
+print(a[::-1])
